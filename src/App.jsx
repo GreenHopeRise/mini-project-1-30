@@ -1,5 +1,6 @@
 
 import './App.css'
+import DeepClone from './components/DeepClone'
 import FlipCard from './components/FlipCard'
 import FormValidation from './components/FormValidation'
 import Modal from './components/Modal'
@@ -51,6 +52,9 @@ function App() {
 
       {/* -----------<>----------- */}
       <Modal/>
+
+      {/* -----------<>----------- */}
+      <DeepClone/>
     </>
   )
 }
