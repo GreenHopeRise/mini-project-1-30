@@ -16,7 +16,7 @@ const Practice2 = () => {
         return()=>{
             document.removeEventListener('mousedown',handleEventListner)
         }
-    },[])
+    },[isOpen])
     return (
         <div>
             <h1 style={{marginTop: '100px'}}>The Box</h1>

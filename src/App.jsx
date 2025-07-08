@@ -2,6 +2,7 @@
 import './App.css'
 import FlipCard from './components/FlipCard'
 import FormValidation from './components/FormValidation'
+import Modal from './components/Modal'
 import OpenCloseBtn from './components/OpenCloseBtn'
 import OtpInput from './components/OtpInput'
 import Practice1 from './components/Practice1'
@@ -48,6 +49,8 @@ function App() {
       {/* -----------<>----------- */}
       <FormValidation/>
 
+      {/* -----------<>----------- */}
+      <Modal/>
     </>
   )
 }
